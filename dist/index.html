@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.4717fcfd.css">
+</head>
+
+<body>
+    <button id="createNote">Create note</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Created</th>
+                <th>Category</th>
+                <th>Content</th>
+                <th>Dates</th>
+            </tr>
+        </thead>
+        <tbody>
+            <template id="noteRow">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </template>
+        </tbody>
+    </table>
+    <div id="modal">
+        <form id="form">
+            <label for="name"></label>
+            <input type="text" name="name" id="name" required="">
+            <label for="ctegory">Choose note category</label>
+            <select name="category" id="category">
+                <option value="task">Task</option>
+                <option value="random">Random Thought</option>
+                <option value="idea">Idea</option>
+            </select>
+            <textarea name="note" id="note" cols="30" rows="10"></textarea>
+            <button type="submit">Create note</button>
+        </form>
+    </div>
+
+    <script src="/index.e5ac7667.js" defer=""></script>
+</body>
+
+</html>
